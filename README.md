@@ -132,4 +132,4 @@ String JSONString = Account.getAllFilesData(token); // Parse using any json pars
 - used json simple lib [json simple](https://github.com/fangyidong/json-simple)
 - used apache httpcomponents [Apache HttpComponents](https://mvnrepository.com/artifact/org.apache.httpcomponents)
 - IDE used [IntelliJ](https://www.jetbrains.com/idea/)
-
+- DOCs Page Soon!

@@ -127,6 +127,15 @@ String JSONString = Account.getAllFilesData(token); // Parse using any json pars
 ```
 - No Utils class is available for all files data parsing but will be available maybe in future 
 
+## Exceptions
+- The Exception Details
+```
+ValueMissingException : thrown when the required or necessary values (token/adminCode) is missing/not set.
+FileBridgeBreakException : thrown when the bridge between the file and api brokes (Files could no be uploaded)
+ErrorStatusCodeException : thrown when the response from api contains an invalid/not ok response
+SomethingWentWrongException : thrown when something gets the wrong way! (idk why i made this bruh)
+```
+
 ## Credits
 - shivzee/shivam1608 made the whole lib alone
 - used json simple lib [json simple](https://github.com/fangyidong/json-simple)

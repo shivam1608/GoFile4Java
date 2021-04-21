@@ -121,4 +121,8 @@ Account.getTotalDownloads(token);  // returns the total number of downloads [Str
 ``` java
 String JSONString = Account.getAllFilesData(token); // Parse using any json parsing lib
 ```
+- Sample all file data response
+``` json
+{"code":"123Abc","adminCode":"Cd9yjCk62syKNEPfAeQg","fileName":"file.txt","md5":"2a4a7522de4ba17a8c6cd920c89f8386"}}
+```
 - No Utils is available for all files parsing but will be available maybe in future 

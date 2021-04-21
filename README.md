@@ -13,7 +13,7 @@ allprojects {
 		}
 	}
 ```
-- Add the dependency
+- Add the dependency (replace main-SNAPSHOT with version on top)
 ```gradle
 dependencies {
 	        implementation 'com.github.shivam1608:GoFile4Java:main-SNAPSHOT'
@@ -30,7 +30,7 @@ dependencies {
 		</repository>
 	</repositories>
 ```
-- Add the dependency
+- Add the dependency (replace main-SNAPSHOT with version on top)
 ```maven 
 	<dependency>
 	    <groupId>com.github.shivam1608</groupId>

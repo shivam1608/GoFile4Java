@@ -3,7 +3,7 @@ The most light weight and stable library to wrap GoFile.io API made with Java
 
 ## Add to your projects
 Easy to add in your projects using gradle, maven or jar
-###Gradle
+##Gradle
 - Add it in your root build.gradle at the end of repositories:
 ```gradle
 allprojects {

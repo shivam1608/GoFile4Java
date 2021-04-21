@@ -53,10 +53,10 @@ GoFile goFile = new GoFile();
 ```
 - Setting up Options (optional inputs)
 ``` java
-goFile.setEmail("example@domain.com);
+goFile.setEmail("example@domain.com");
 goFile.setToken("0xd2f32df334213xhsu7783hdhajdd");
 goFile.setPassword("password");
-goFile.setDescription("This is an example description);
+goFile.setDescription("This is an example description");
 goFile.setTags("tag1, tag2, tag3");
 goFile.setAdminCode("1234G67U5T")
 ```

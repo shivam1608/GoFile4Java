@@ -45,3 +45,9 @@ Download the jar from this repo
 ```
 out/artifact/GoFile4Java_Jar
 ```
+
+## Uploading Files
+- Creating the instance
+``` java
+GoFile goFile = new GoFile();
+```

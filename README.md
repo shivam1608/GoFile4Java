@@ -66,7 +66,7 @@ GoFile goFile = new GoFile(email, token, password, description, tags, adminCode)
 ```
 expiry date is not supported now but will be added in future
 
--Uploading the File
+- Uploading the File
 ``` java
 goFile.upload(file)
 ```
@@ -74,4 +74,22 @@ file is the File Object of Java in java.io package
 
 
 ## Geting the Upload Response
-
+- The response is in array formated as
+``` java
+String [] uploadResponse = goFile.upload(file);
+uploadResponse[0]; // View Link Code
+uploadResponse[1]; // Admin Code
+uploadResponse[2]; // File Name
+uploadResponse[3]; // MD5 Hash
+uploadResponse[4]; // Download page Link
+```
+- The UploadResponseUtils class
+This class is used to get response using methods thus making it easy
+``` java
+UploadResponseUtils response = new UploadResponseUtils(goFile.upload(file));
+response.getCode();
+response.getAdminCode();
+response.getFileName();
+response.getFileHash();
+response.getDownloadLink();
+```

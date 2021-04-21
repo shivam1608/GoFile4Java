@@ -42,3 +42,6 @@ dependencies {
 
 ### Jar 
 Download the jar from this repo 
+```
+out/artifact/GoFile4Java_Jar
+```

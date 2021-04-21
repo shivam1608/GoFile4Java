@@ -32,8 +32,6 @@ dependencies {
 ```
 - Add the dependency
 ```maven 
-
-
 	<dependency>
 	    <groupId>com.github.shivam1608</groupId>
 	    <artifactId>GoFile4Java</artifactId>
@@ -41,3 +39,6 @@ dependencies {
 	</dependency>
 
 ```
+
+### Jar 
+Download the jar from this repo 

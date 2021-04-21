@@ -126,3 +126,10 @@ String JSONString = Account.getAllFilesData(token); // Parse using any json pars
 {"code":"123Abc","adminCode":"Cd9yjCk62syKNEPfAeQg","fileName":"file.txt","md5":"2a4a7522de4ba17a8c6cd920c89f8386"}}
 ```
 - No Utils is available for all files parsing but will be available maybe in future 
+
+## Credits
+- shivzee/shivam1608 made the whole lib alone
+- used json simple lib [json simple](https://github.com/fangyidong/json-simple)
+- used apache httpcomponents [Apache HttpComponents](https://mvnrepository.com/artifact/org.apache.httpcomponents)
+- IDE used [IntelliJ](https://www.jetbrains.com/idea/)
+

@@ -135,6 +135,7 @@ FileBridgeBreakException : thrown when the bridge between the file and api broke
 ErrorStatusCodeException : thrown when the response from api contains an invalid/not ok response
 SomethingWentWrongException : thrown when something gets the wrong way! (idk why i made this bruh)
 ```
+- The Exceptions need to be caught or thrown when using methods/functions of this lib
 
 ## Credits
 - shivzee/shivam1608 made the whole lib alone

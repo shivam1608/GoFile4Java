@@ -103,3 +103,17 @@ goFile.setAdminCode("1234G5Ty6");                  // ~must be sepcified
 ``` java
 boolean status = goFile.deleteUpload(code);  // code : the file code after /d/ of the link Example : Y6gey79
 ```
+## Account Information
+- The Account() class (Seperate static class for handling account data)
+``` java
+String token = "0xd2f32df334213xhsu7783hdhajdd";  // the token is required for every method in Account class
+```
+- Functions/Methods in Account() class
+``` java
+Account.getEmail(token);           // returns the email of user [String]
+Account.getAccountType(token);     // returns the account type [String] (standard / donor / premium)
+Account.getUploadsCount(token);    // returns the total uploads of user [String]
+Account.getFilesCount(token);      // returns the total files uploaded [String]
+Account.getTotalSize(token);       // returns the total storage occupied on cloud in bytes [String]
+Account.getTotalDownloads(token);  // returns the total number of downloads [String]
+```

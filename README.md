@@ -1,6 +1,5 @@
 # GoFile4Java
-The most light weight and stable library to wrap GoFile.io API made with Java
-Read <https://gofile.io/api> for detailed arguments
+The most light weight and stable library to wrap GoFile.io API made with Java. Read <https://gofile.io/api> for detailed arguments
 
 ## Add to your projects
 Easy to add in your projects using gradle, maven or jar
@@ -118,3 +117,8 @@ Account.getFilesCount(token);      // returns the total files uploaded [String]
 Account.getTotalSize(token);       // returns the total storage occupied on cloud in bytes [String]
 Account.getTotalDownloads(token);  // returns the total number of downloads [String]
 ```
+- The getAllFilesData() method/function (returns a JSON String containing all data about files)
+``` java
+String JSONString = Account.getAllFilesData(token); // Parse using any json parsing lib
+```
+- No Utils is available for all files parsing but will be available maybe in future 

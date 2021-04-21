@@ -19,3 +19,25 @@ dependencies {
 	        implementation 'com.github.shivam1608:GoFile4Java:main-SNAPSHOT'
 	}
 ```
+
+### Maven
+- Add the repository
+```maven
+      <repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+```
+- Add the dependency
+```maven 
+
+
+	<dependency>
+	    <groupId>com.github.shivam1608</groupId>
+	    <artifactId>GoFile4Java</artifactId>
+	    <version>main-SNAPSHOT</version>
+	</dependency>
+
+```

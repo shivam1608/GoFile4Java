@@ -65,3 +65,13 @@ goFile.setAdminCode("1234G67U5T");
 GoFile goFile = new GoFile(email, token, password, description, tags, adminCode);
 ```
 expiry date is not supported now but will be added in future
+
+-Uploading the File
+``` java
+goFile.upload(file)
+```
+file is the File Object of Java in java.io package
+
+
+## Geting the Upload Response
+

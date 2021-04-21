@@ -1,5 +1,6 @@
 # GoFile4Java
-The most light weight and stable library to wrap GoFile.io API made with Java 
+The most light weight and stable library to wrap GoFile.io API made with Java
+Read <https://gofile.io/api> for detailed arguments
 
 ## Add to your projects
 Easy to add in your projects using gradle, maven or jar

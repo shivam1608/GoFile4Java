@@ -73,7 +73,7 @@ goFile.upload(file)
 file is the File Object of Java in java.io package
 
 
-## Geting the Upload Response
+## Getting the Upload Response
 - The response is in array formated as
 ``` java
 String [] uploadResponse = goFile.upload(file);

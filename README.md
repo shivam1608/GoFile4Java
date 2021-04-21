@@ -83,8 +83,7 @@ uploadResponse[2]; // File Name
 uploadResponse[3]; // MD5 Hash
 uploadResponse[4]; // Download page Link
 ```
-- The UploadResponseUtils class
-This class is used to get response using methods thus making it easy
+- The UploadResponseUtils() class (This class is used to get response using methods thus making it easy)
 ``` java
 UploadResponseUtils response = new UploadResponseUtils(goFile.upload(file));
 response.getCode();
@@ -92,4 +91,15 @@ response.getAdminCode();
 response.getFileName();
 response.getFileHash();
 response.getDownloadLink();
+```
+
+## Deleting Uploads
+- For this either the token or the adminCode must be specified
+``` java
+goFile.setToken("0xd2f32df334213xhsu7783hdhajdd"); // anyone of the two ~
+goFile.setAdminCode("1234G5Ty6");                  // ~must be sepcified
+```
+- Calling the deleteUpload() function (returns true/false )
+``` java
+boolean status = goFile.deleteUpload(code);  // code : the file code after /d/ of the link Example : Y6gey79
 ```

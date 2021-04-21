@@ -58,9 +58,10 @@ goFile.setToken("0xd2f32df334213xhsu7783hdhajdd");
 goFile.setPassword("password");
 goFile.setDescription("This is an example description");
 goFile.setTags("tag1, tag2, tag3");
-goFile.setAdminCode("1234G67U5T")
+goFile.setAdminCode("1234G67U5T");
 ```
 - OR
 ``` java
 GoFile goFile = new GoFile(email, token, password, description, tags, adminCode);
 ```
+expiry date is not supported now but will be added in future

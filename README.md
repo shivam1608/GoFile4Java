@@ -125,7 +125,7 @@ String JSONString = Account.getAllFilesData(token); // Parse using any json pars
 ``` json
 {"code":"123Abc","adminCode":"Cd9yjCk62syKNEPfAeQg","fileName":"file.txt","md5":"2a4a7522de4ba17a8c6cd920c89f8386"}}
 ```
-- No Utils is available for all files parsing but will be available maybe in future 
+- No Utils class is available for all files data parsing but will be available maybe in future 
 
 ## Credits
 - shivzee/shivam1608 made the whole lib alone
